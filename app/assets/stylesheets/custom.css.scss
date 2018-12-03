@@ -1,1 +1,19 @@
 @import "semantic-ui";
+
+.ui {
+
+  &.menu {
+    color: #455a64;
+    background: #ffecb3;
+
+    .dropdown.item .menu {
+      color: #455a64;
+      background: #ffecb3;
+    }
+  }
+
+  &.primary.button, &.primary.button:hover {
+    color: #ffecb3;
+    background: #455a64;
+  }
+}
