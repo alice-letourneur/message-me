@@ -1,19 +1,34 @@
 @import "semantic-ui";
+body {
+  background-color: #dfe3e5;
 
-.ui {
+  .ui {
 
-  &.menu {
-    color: #455a64;
-    background: #ffecb3;
-
-    .dropdown.item .menu {
+    &.vertical.menu {
       color: #455a64;
       background: #ffecb3;
     }
-  }
 
-  &.primary.button, &.primary.button:hover {
-    color: #ffecb3;
-    background: #455a64;
+    &.menu {
+      color: #455a64;
+      background: #ffecb3;
+
+      .dropdown.item .menu {
+        color: #455a64;
+        background: #ffecb3;
+      }
+    }
+
+    &.primary.button, &.primary.button:hover {
+      color: #ffecb3;
+      background: #455a64;
+    }
+
+    &.chatbox {
+      height: 350px;
+      &.users {
+        background-color: #dfe3e5;
+      }
+    }
   }
 }
