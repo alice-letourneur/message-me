@@ -64,3 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Add frontend framework Semantic UI
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
+
+# Use Hirb gem for better console data presentation
+gem 'hirb', '~> 0.7.3'
