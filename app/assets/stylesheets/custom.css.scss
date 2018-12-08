@@ -13,9 +13,13 @@ body {
       color: #455a64;
       background: #ffecb3;
 
-      .dropdown.item .menu {
-        color: #455a64;
+      .dropdown.item .menu, .item, .active.item, .dropdown.item, .ui.dropdown .menu > .item {
+        color: #455a64!important;
         background: #ffecb3;
+      }
+
+      .item:hover, .active.item:hover, .dropdown.item:hover, .ui.dropdown .menu > .item:hover {
+        color: #455a64!important;
       }
     }
 
@@ -24,10 +28,38 @@ body {
       background: #455a64;
     }
 
+    .header {
+      color: #455a64;
+    }
+
+    .card {
+      background-color: #f3f3f3;
+    }
     &.chatbox {
-      height: 350px;
-      &.users {
-        background-color: #dfe3e5;
+      height: 400px;
+    }
+
+    &.feed > .event > .content .summary{
+      color: #455a64;
+
+      .message {
+        font-weight: normal;
+      }
+    }
+
+    .form {
+      i {
+        background-color: #ffecb3;
+        color: #455a64;
+      }
+
+      input[type="text"]{
+        color: #455a64;
+
+        &:focus {
+          border-color: #ffecb3;
+          color: #455a64;
+        }
       }
     }
   }
