@@ -48,12 +48,12 @@ body {
     }
 
     .form {
-      i {
+      i.message {
         background-color: #ffecb3;
         color: #455a64;
       }
 
-      input[type="text"]{
+      input[type="text"], input[type="password"]{
         color: #455a64;
 
         &:focus {
