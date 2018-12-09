@@ -1,0 +1,11 @@
+<% flash.each do |type, content| %>
+  <div class="ui <%= type %> message transition">
+    <i class="close icon"></i>
+    <div class="header">
+      <%= content[0] %>
+    </div>
+    <% if content.length > 1 %>
+      <p><%= content[1] %></p>
+    <% end %>
+  </div>
+<% end %>
