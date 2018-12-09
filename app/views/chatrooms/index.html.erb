@@ -7,34 +7,7 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui feed">
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Elliot Fu:</em> <span class="message">Test message<span>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Stevie Feliciano:</em> <span class="message">Test message<span>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Helen Troy:</em> <span class="message">Test message<span>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Christian Rocha:</em> <span class="message">Test message<span>
-              </div>
-            </div>
-          </div>
+          <%= render "message" %>
         </div>
       </div>
       <div class="extra content">
@@ -53,15 +26,7 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui vertical menu">
-          <a class="active item">
-            Alice
-          </a>
-          <a class="item">
-            Dan
-          </a>
-          <a class="item">
-            John
-          </a>
+          <%= render "user" %>
         </div>
       </div>
     </div>
